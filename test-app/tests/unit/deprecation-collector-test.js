@@ -1,9 +1,10 @@
 /* eslint-disable qunit/require-expect */
 /* eslint no-console: 0 */
 
-import { module } from 'qunit';
-import test from '../helpers/debug-test';
 import { deprecationCollector } from 'ember-cli-deprecation-workflow';
+import { module } from 'qunit';
+
+import test from '../helpers/debug-test';
 
 let originalWarn, originalConfig;
 

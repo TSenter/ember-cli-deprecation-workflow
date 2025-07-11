@@ -1,9 +1,9 @@
+import { setApplication } from '@ember/test-helpers';
+import { dependencySatisfies } from '@embroider/macros';
+import { setupEmberOnerrorValidation, start } from 'ember-qunit';
+import { loadTests } from 'ember-qunit/test-loader';
 import Application from 'test-app/app';
 import config from 'test-app/config/environment';
-import { setApplication } from '@ember/test-helpers';
-import { loadTests } from 'ember-qunit/test-loader';
-import { start, setupEmberOnerrorValidation } from 'ember-qunit';
-import { dependencySatisfies } from '@embroider/macros';
 
 setupEmberOnerrorValidation();
 
